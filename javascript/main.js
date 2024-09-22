@@ -433,7 +433,7 @@ const enableCheckerInit = () => {
           const v0 = Number(vers[0].substring(1));
           if (v0 < 1 ) {
             err = true;
-          }
+          } else {
           // Support >= v0.0.11 for sd-webui-forge
           const v2 = Number(vers[2].split("-")[0]);
           if (v2 < 11) {
