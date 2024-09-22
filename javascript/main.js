@@ -429,6 +429,11 @@ const enableCheckerInit = () => {
             err = true;
           }
         } else if (vers[0].startsWith("f")) {
+          // Support >= v1.0.0 for sd-webui-reforge
+          const v0 = Number(vers[0].substring(1));
+          if (v0 < 1 ) {
+            err = true;
+          }
           // Support >= v0.0.11 for sd-webui-forge
           const v2 = Number(vers[2].split("-")[0]);
           if (v2 < 11) {
