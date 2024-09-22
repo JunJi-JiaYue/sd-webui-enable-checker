@@ -10,6 +10,7 @@
 
 - [sd-webui v1.10.1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases) and [Mikubill/sd-webui-controlnet v1.1.455](https://github.com/Mikubill/sd-webui-controlnet)
 - [stable-diffusion-webui-forge  f0.0.11-latest-107-g44b647a8](https://github.com/lllyasviel/stable-diffusion-webui-forge)
+- [stable-diffusion-webui-reforge  f1.0.2-v1.10.1RC-previous-413-g37223711](https://github.com/Panchovix/stable-diffusion-webui-reForge)
 
 ## Features
 
